@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div{
+            width: 600px;
+            margin: 30px auto;
+        }
+        label{
+            font-weight: 600;
+            min-width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend align="center">FORM</legend>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <br><br>
+                <label for="pssword">Password</label>
+                <input type="password" name="" id="password">
+                <br><br>
+                <label for="dob">DOB</label>
+                <input type="date" name="" id="dob">
+                <br><br>
+                <label for="month">Month</label>
+                <input type="month" name="" id="month">
+                <br><br>
+                <label for="week">Week</label>
+                <input type="week" name="" id="week">
+                <br><br>
+                <label for="range">Range</label>
+                <input type="range" name="" id="range">
+                <br><br>
+                <label for="color">Fav Color</label>
+                <input type="color" name="" id="color">
+                <br><br>
+                <label for="phone">Phone No.</label>
+                <input type="text" name="" id="" value="+91" size="1" disabled>
+                <input type="text" name="" id="phone" pattern="[6-9]{1}[0-9]{9}" required>
+                <br><br>
+                <label for="">Gender</label>
+                <input type="radio" name="gender" id="" value="male">Male &emsp;
+                <input type="radio" name="gender" id="" value="female">Female &emsp;
+                <input type="radio" name="gender" id="" value=""others>Others
+                <br><br>
+                <label for="">Subjects</label>
+                <input type="checkbox" name="" id="" value="SQL" checked disabled>SQL
+                <input type="checkbox" name="" id="" value="JAVA" checked disabled>JAVA
+                <input type="checkbox" name="" id="" value="WT" checked disabled>Web Tech
+                <input type="checkbox" name="" id="" value="MT">Manual Testing
+                <input type="checkbox" name="" id="" value="optional">Selenium
+                <input type="checkbox" name="" id="" value="optional">J2EE
+                <br><br>
+                <label for="univ">University</label>
+                <select name="" id="univ">
+                    <option value="" disabled selected>Choose your university</option>
+                    <option value="SSPU">SSPU</option>
+                    <option value="DBATU">DBATU</option>
+                    <option value="SGPU">SGPU</option>
+                    <option value="LPU">LPU</option>
+                    <option value="RTM">RTM</option>
+                    <option value="">Others</option>
+                </select>
+                <br><br>
+                <label for="resume">Resume</label>
+                <input type="file" name="" id="resume" multiple>
+                <br><br><br>
+                <input type="submit" value="Submit" name="submit">
+                <input type="reset" value="Reset" name="reset">
+                <button>Click Me</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

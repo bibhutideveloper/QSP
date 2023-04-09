@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table tr{
+    vertical-align: top;
+}
+table td,
+table th{
+    padding: 5px;
+}
+.head{
+    font-size: 70px;
+    height: 100px;
+    background-color: #ffe9e2;
+    vertical-align: middle;
+}
+.head span{
+    color: white;
+}
+.col1{
+    width: 50%;
+    font-weight: 600;
+    font-size: 50px;
+}
+.col2{
+    width: 35%;
+    border: 1px solid black;
+}
+.col2 img{
+    width: 100%;
+}
+.col3{
+    width: 15%;
+    font-size: 30px;
+}
+td.col5,
+.title4{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.title1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #686868;
+}
+.title2{
+    font-size: 13px;
+    text-align: center;
+}
+.title3{
+    font-size: 40px;
+}
+.title4{
+    font-size: 30px;
+}
+.logo{
+    background: red;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+hr{
+    margin-top: 20px;
+}
